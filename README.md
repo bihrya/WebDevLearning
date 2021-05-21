@@ -16,3 +16,7 @@ Interactivity with JavaScript
 Advanced Styling with Responsive Design
 
 Web Design for Everybody Capstone
+
+https://validator.w3.org/
+
+https://jigsaw.w3.org/css-validator/
