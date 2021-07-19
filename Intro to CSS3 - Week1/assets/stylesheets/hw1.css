@@ -19,7 +19,8 @@ nav > a{
     background-color: rgba(255,255,255,0.4);
     border-radius: 5px;
     padding: 3px 15px 3px 15px;
-    margin: 0px 30px 0px 30px
+    margin: 0px 30px 0px 30px;
+    height:100vl;
 }
 
 img{
@@ -57,6 +58,45 @@ h1{
     text-align: center;
 }
 
+/* Table styling */
+table{
+    padding: 1px;
+    margin: 1px;
+    border:none;
+}
 
+th {
+    margin:5px;
+    padding:5px;
+    border: 2px solid rgb(1, 56, 26);
+    background: rgb(2,0,36);
+    font-size: smaller;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #eeeeee;
+    background: -moz-linear-gradient(180deg, rgb(20, 102, 9) 0%, rgba(126,213,8,1)  100%);
+    background: -webkit-linear-gradient(180deg, rgb(20, 102, 9) 0%, rgba(126,213,8,1)  100%);
+    background: linear-gradient(180deg, rgb(20, 102, 9) 0%, rgba(126,213,8,1)  100%);
+    border-radius: 4px 4px 0px 0px;
+} 
 
+tr:not(:first-child) {
+    text-align: center;
+    background-color: rgba(206, 245, 168);
+    opacity: 0.7;
+}
+td{
+    margin:5px;
+    padding:5px;
+    font-style: normal;
+    border:none;
+    text-shadow: rgb(0, 0, 0);
+}
 
+tr:hover{
+    opacity: 1;
+}
+
+tr :first-child {
+    text-align: left;
+    
+}
